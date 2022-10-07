@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
+/*atributo geral*/
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/*Mudança de fonte e background do body*/
+body{
+  font-family: 'Alkalami', sans-serif;
+  background-color: whitesmoke;
+}
+
+body p{
+  text-align: justify;
+}
+
+/*Mudança de fonte títulos*/
+.title{
+  font-family: 'Roboto Slab', sans-serif;
+  height: 50px;
+}
+
+header{
+  background-image: linear-gradient(0deg, blue, white, blue);
+}
+
+header a{
+  text-decoration: none; color: black; padding: 1em;
+  border-right: 1em;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.header{
+  display:flex;
+  list-style: none;
+  gap: .8rem;
+  align-items: center;
+}
+
+#maintitle{
+  /*tirar fonte dele e deixar default*/
+  text-align: center;
+}
+
+/*
+#bandeiralogo{
+    padding:0px;
+    margin: 0px;
+    n consegui colocar bandeira no simbolo da pag
+}
+*/
+
+
+article{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+article img{
+  width: 40%;
+  float: right;
+  margin: 0 0 2em 2em;
+  box-shadow: 5px 5px 15px rgba(0,0,0, .4);
+}
+
+article a{
+  text-decoration: none; color: black; padding: 1em;
+  border-right: 1em;
+}
+
+.linha{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#brasao{
+  width: 15%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 15px;
+  box-shadow: 5px 5px 15px rgba(0,0,0, .4);
+}
+
+h3{
+  text-align: center;
+}
+
+.listacentro{
+  text-align: center;
+}
+
+li.listacentro{
+  list-style: none;
+}
+
+.perfil a{
+  text-decoration: none; color: black; padding: 1em;
+  align-items: baseline;
+}
+
+.ImagemPerfil{
+  width: 25%;
+}
+
+.footera{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+} 
+
+.logoufrn{
+  max-width: 10%;
+  max-height: 10%;
+}
